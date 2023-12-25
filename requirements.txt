@@ -1,0 +1,9 @@
+//to install foundry setup on linux system
+curl -L https://foundry.paradigm.xyz | bash
+//to install foundry
+foundryup
+
+//checking foundry version
+forge --version
+//for help menu
+forge --help
