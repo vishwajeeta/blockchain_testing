@@ -3,6 +3,10 @@ curl -L https://foundry.paradigm.xyz | bash
 //to install foundry
 foundryup
 
+
+//create new project
+forge init hello_foundry
+
 //checking foundry version
 forge --version
 //for help menu
