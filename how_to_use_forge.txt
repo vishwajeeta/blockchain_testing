@@ -1,0 +1,2 @@
+#run test file <counter.t.sol> -vv for console.log [visibility of log]
+forge test -vv
