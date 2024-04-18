@@ -64,3 +64,6 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+remapping the chainlink-browniecontracts
+remappings=["@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/"]
