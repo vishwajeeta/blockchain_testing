@@ -2,11 +2,17 @@
 pragma solidity ^0.8.13;
 
 import {Script, console} from "forge-std/Script.sol";
-
+import {User} from "../src/User.sol";
 contract CounterScript is Script {
-    function setUp() public {}
+    function setUp() public {
+        
+    }
 
     function run() public {
-        vm.broadcast();
+        vm.startBroadcast();
+        new User("vishwa");
+        vm.stopBroadcast();
+
+
     }
 }
