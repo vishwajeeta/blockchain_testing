@@ -25,4 +25,7 @@ function testOwner()public{
     console.log(address(this));
     assertEq(fundme.i_owner(),address(this));
 }
+function testPriceFeedVersion()public{
+    assertEq(fundme.getVersion(),4);
+}
 }

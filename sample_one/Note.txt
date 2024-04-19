@@ -1,0 +1,7 @@
+remapping the chainlink-browniecontracts
+remappings=["@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/"]
+
+--------------------------------------------------------------------------------------------
+testing only 1-function
+invariant test
+-m has been deprecated and was replaced with --match-test / --mt
