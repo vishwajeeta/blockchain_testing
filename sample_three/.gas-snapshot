@@ -1,0 +1,3 @@
+UserTest:testGetName() (gas: 11852)
+UserTest:testName1() (gas: 33938)
+UserTest:testUpdateName() (gas: 33517)
