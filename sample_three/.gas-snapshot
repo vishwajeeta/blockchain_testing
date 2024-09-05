@@ -1,3 +1,5 @@
-UserTest:testGetName() (gas: 11852)
-UserTest:testName1() (gas: 33938)
-UserTest:testUpdateName() (gas: 33517)
+UserTest:testArray() (gas: 44727)
+UserTest:testArrayLoop() (gas: 235130)
+UserTest:testGetName() (gas: 11848)
+UserTest:testName1() (gas: 33930)
+UserTest:testUpdateName() (gas: 33509)
