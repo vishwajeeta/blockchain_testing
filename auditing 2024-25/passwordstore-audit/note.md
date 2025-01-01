@@ -24,3 +24,9 @@ function setPassword(string memory newPassword) external onlyOwner{
 
 ### modifications for better usage
 - add struct with array to store username with password ,it can store multiple passwords {key: value pair}
+
+## Note:-
+- private is not realy private(as on chain everything is public visible for others)
+```solidity
+string private s_password;
+```
