@@ -6,3 +6,11 @@
 - contract Creation Code and Deployed Bytecode are bytecode
 ## contract Creation Code
 ## Deployed Bytecode
+
+# cheet-sheep
+```cmd
+$ cast to-base 0x60 dec
+96
+```
+opcode->
+60->96
