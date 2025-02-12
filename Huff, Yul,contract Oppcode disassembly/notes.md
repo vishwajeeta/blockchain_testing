@@ -12,5 +12,7 @@
 $ cast to-base 0x60 dec
 96
 ```
-opcode->
-60->96
+dec ->decimal
+bin ->binary
+opcode->decimal->operation
+60->96->PUSH1
