@@ -27,3 +27,15 @@ PUSH1->how much->PUSH1->how much->MSTORE
 
 # introduction to Huff
 - Rewrite HorseStore in Huff
+
+## what is function deipatching?
+
+```
+//what is function selector
+updateHouseNumber(uint256) -> 2 of these is function signature and we can hash them to make function selector
+```
+**Example:-**
+```cmd
+cast sig "updateHouseNumber(uint256)"
+0xde30e683
+```
