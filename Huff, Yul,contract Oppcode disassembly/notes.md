@@ -14,5 +14,16 @@ $ cast to-base 0x60 dec
 ```
 dec ->decimal
 bin ->binary
-opcode->decimal->operation
+opcode->decimal->operation/NAME
 60->96->PUSH1
+
+if 0x608060
+60->80->60
+PUSH1->how much->PUSH1
+
+if 0x6080604052
+60->80->60->40->52
+PUSH1->how much->PUSH1->how much->MSTORE
+
+# introduction to Huff
+- Rewrite HorseStore in Huff
