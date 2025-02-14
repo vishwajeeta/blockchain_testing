@@ -1,0 +1,2 @@
+
+define macro main()=takes(0) returns(0){}

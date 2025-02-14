@@ -39,3 +39,11 @@ updateHouseNumber(uint256) -> 2 of these is function signature and we can hash t
 cast sig "updateHouseNumber(uint256)"
 0xde30e683
 ```
+
+*macro essentially are functions
+this is how we define macro which is basically a function.
+<!-- its essentiall huff but for redability using solidity -->
+
+```solidity
+define macro main()=takes(0) returns(0){}
+```
