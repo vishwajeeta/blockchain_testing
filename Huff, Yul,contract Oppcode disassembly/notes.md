@@ -45,5 +45,5 @@ this is how we define macro which is basically a function in huff
 <!-- its essentiall huff but for redability using solidity -->
 
 ```solidity
-define macro main()=takes(0) returns(0){}
+#define macro MAIN()=takes(0) returns(0){}
 ```
