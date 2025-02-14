@@ -41,7 +41,7 @@ cast sig "updateHouseNumber(uint256)"
 ```
 
 *macro essentially are functions
-this is how we define macro which is basically a function.
+this is how we define macro which is basically a function in huff
 <!-- its essentiall huff but for redability using solidity -->
 
 ```solidity
