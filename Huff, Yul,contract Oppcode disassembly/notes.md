@@ -47,3 +47,11 @@ this is how we define macro which is basically a function in huff
 ```solidity
 #define macro MAIN()=takes(0) returns(0){}
 ```
+- Huff syntax highlighting extension in VsCode
+
+## Note:-
+when we compile any smart contract most smart contract are compiled into 2~4 different sections
+- contract Creation
+- Runtime
+- Metadata ,constructor,,etc
+solidity adds `INVALID` opCode between different sections,so its earier to tell difference in section
