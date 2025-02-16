@@ -51,7 +51,8 @@ this is how we define macro which is basically a function in huff
 
 ## Note:-
 when we compile any smart contract most smart contract are compiled into 2~4 different sections
-- contract Creation
-- Runtime
+- contract Creation -> tell blockchain to store smart contract
+- Runtime ->
 - Metadata ,constructor,,etc
-solidity adds `INVALID` opCode between different sections,so its earier to tell difference in section
+solidity adds `INVALID` opCode between different sections,so its earier to tell difference in section.
+contract creation bytecode is responsible for taking our smart contract and `saving` it on-chain.
