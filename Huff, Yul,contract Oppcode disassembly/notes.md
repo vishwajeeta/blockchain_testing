@@ -62,8 +62,8 @@ solidity adds `INVALID` opCode between different sections,so its earier to tell 
 contract creation bytecode is responsible for taking our smart contract and `saving` it on-chain.
 
 # Types of storage
-1. Stack
-2. Memory
+1. Stack ,works like a real stack
+2. Memory ,works like RAM once task is done memory is gone
 3. Storage
 
 - Evm-code
