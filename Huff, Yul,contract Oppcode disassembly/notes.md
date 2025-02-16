@@ -60,3 +60,14 @@ when we compile any smart contract most smart contract are compiled into 2~4 dif
 - Metadata ,constructor,,etc
 solidity adds `INVALID` opCode between different sections,so its earier to tell difference in section.
 contract creation bytecode is responsible for taking our smart contract and `saving` it on-chain.
+
+# Types of storage
+1. Stack
+2. Memory
+3. Storage
+
+- Evm-code
+- program-counter
+- available gas
+
+EVM is known as stack matchine,chepest place to things is on stack
