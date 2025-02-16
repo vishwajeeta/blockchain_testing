@@ -49,6 +49,10 @@ this is how we define macro which is basically a function in huff
 ```
 - Huff syntax highlighting extension in VsCode
 
+## The code copy OpCode
+`39 or CODECOPY` is the opCode for contract creation bytecode
+
+
 ## Note:-
 when we compile any smart contract most smart contract are compiled into 2~4 different sections
 - contract Creation -> tell blockchain to store smart contract
