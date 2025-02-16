@@ -62,12 +62,14 @@ solidity adds `INVALID` opCode between different sections,so its earier to tell 
 contract creation bytecode is responsible for taking our smart contract and `saving` it on-chain.
 
 # Types of storage
-1. Stack ,works like a real stack
-2. Memory ,works like RAM once task is done memory is gone
-3. Storage
+1. Stack ,works like a real stack 
+2. Memory ,works like RAM once task is done memory is gone,opcode `MSTORE -> 3`
+3. Storage ,its like a zient array `interacting with storage is very expensive`,opcode`SSTORE->100`
 
 - Evm-code
 - program-counter
 - available gas
 
 EVM is known as stack matchine,chepest place to things is on stack
+
+
