@@ -52,6 +52,7 @@ this is how we define macro which is basically a function in huff
 ## The code copy OpCode
 `39 or CODECOPY` is the opCode for contract creation bytecode
 
+- SHR (Right Shift)
 
 ## Note:-
 when we compile any smart contract most smart contract are compiled into 2~4 different sections
