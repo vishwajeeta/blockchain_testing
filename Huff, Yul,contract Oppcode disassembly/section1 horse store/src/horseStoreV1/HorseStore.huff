@@ -1,2 +1,6 @@
-
-#define macro MAIN()=takes(0) returns(0){}
+// find function selector -> route it to the code that updates horses
+// PUSH0 on to the stack to do smome stuff later
+// we can use PUSH0 or 0x00 ,PUSH1 or 0x01 huff will be able to understand both
+#define macro MAIN()=takes(0) returns(0){
+    PUSH0
+}
