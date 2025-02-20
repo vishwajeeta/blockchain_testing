@@ -7,3 +7,5 @@ forge fmt
 ```
 anvil
 ```
+
+## How to deploy smart contract on anvil blockchain
