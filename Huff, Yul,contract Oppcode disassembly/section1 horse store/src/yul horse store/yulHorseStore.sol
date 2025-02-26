@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.20;
 
-contract HorseStore {
+contract HorseStoreYul {
     uint256 numberOfHouses;
     function updateHorseName(uint256 newNumberOfHorses) external {
         // numberOfHouses=newNumberOfHorses;
